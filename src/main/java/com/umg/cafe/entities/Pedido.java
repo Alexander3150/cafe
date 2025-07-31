@@ -34,7 +34,7 @@ public class Pedido {
     @Column(nullable = false, length = 30)
     private String estado;
 
-    @Column(name = "numero_orden", nullable = false, unique = true, length = 30)
+    @Column(name = "numero_orden", nullable = false, unique = true, length = 50)
     private String numeroOrden;
 
     // ----- Relaciones -----
